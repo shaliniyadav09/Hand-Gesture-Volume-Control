@@ -1,8 +1,12 @@
-python_version == 3.13
-pycaw==20230407
-mediapipe==0.10.14
-opencv-python==4.10.0.84
-matplotlib==3.10.0
-pandas==2.2.3
-numpy==2.1.3
-ctypes==1.1.0
+# Python Hand Gesture Volume Control
+# Tested for: Python 3.13 (Windows only)
+# Purpose: Control system volume with hand gestures via webcam
+
+opencv-python==4.10.0.84        # For video capture and drawing (cv2)
+mediapipe==0.10.14              # For hand landmark detection
+pycaw==20230407                 # For Windows audio control (requires comtypes)
+comtypes==1.2.0                 # COM interface dependency for pycaw
+numpy==2.1.3                    # Math and interpolation functions
+protobuf==4.25.3                # Compatible version for mediapipe
+matplotlib==3.10.0              # Optional, used for visualization/debugging
+pandas==2.2.3                   # Optional, not needed for main script
