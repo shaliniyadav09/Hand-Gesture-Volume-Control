@@ -1,1 +1,8 @@
-
+python
+pycaw
+mediapipe
+opencv
+matplotlib
+pandas
+numpy
+cytpes
