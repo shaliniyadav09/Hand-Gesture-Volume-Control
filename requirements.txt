@@ -9,6 +9,4 @@ mediapipe              # For hand landmark detection
 pycaw                 # For Windows audio control (requires comtypes)
 comtypes                 # COM interface dependency for pycaw
 numpy                    # Math and interpolation functions
-protobuf                # Compatible version for mediapipe
-matplotlib              # Optional, used for visualization/debugging
-pandas                   # Optional, not needed for main script
+                
