@@ -1,8 +1,8 @@
-python
-pycaw
-mediapipe
-opencv
-matplotlib
-pandas
-numpy
-cytpes
+python_version == 3.13
+pycaw==20230407
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+matplotlib==3.10.0
+pandas==2.2.3
+numpy==2.1.3
+ctypes==1.1.0
