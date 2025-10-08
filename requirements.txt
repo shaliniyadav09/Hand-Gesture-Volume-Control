@@ -2,6 +2,8 @@
 # Tested for: Python 3.13 (Windows only)
 # Purpose: Control system volume with hand gestures via webcam
 
+
+Python =
 opencv-python==4.10.0.84        # For video capture and drawing (cv2)
 mediapipe==0.10.14              # For hand landmark detection
 pycaw==20230407                 # For Windows audio control (requires comtypes)
